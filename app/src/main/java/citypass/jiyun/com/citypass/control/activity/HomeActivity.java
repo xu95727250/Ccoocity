@@ -44,8 +44,12 @@ public class HomeActivity extends BaseActivity {
     @Override
     public void loadData() {
 //        homeHeadbut.setChecked(true);
-    }
 
+
+
+
+        //吴少聪
+    }
     @Override
     public void initListener() {
     }
