@@ -10,7 +10,6 @@ import butterknife.Bind;
 import citypass.jiyun.com.citypass.R;
 import citypass.jiyun.com.citypass.control.base.BaseActivity;
 import citypass.jiyun.com.citypass.control.bbs.BbsFragment;
-import citypass.jiyun.com.citypass.control.fragment.head.HeadFragment;
 import citypass.jiyun.com.citypass.control.tools.FragmentUtils;
 
 public class HomeActivity extends BaseActivity {
@@ -49,7 +48,6 @@ public class HomeActivity extends BaseActivity {
 
     @Override
     public void initListener() {
-
     }
 
     @Override
