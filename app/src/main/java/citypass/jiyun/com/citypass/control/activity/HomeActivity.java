@@ -14,7 +14,6 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import citypass.jiyun.com.citypass.R;
 import citypass.jiyun.com.citypass.control.base.BaseActivity;
-import citypass.jiyun.com.citypass.control.bbs.BbsFragment;
 import citypass.jiyun.com.citypass.control.fragment.HeadFragment;
 import citypass.jiyun.com.citypass.control.tools.FragmentUtils;
 import citypass.jiyun.com.citypass.control.tools.LogToastUtils;
@@ -57,7 +56,7 @@ public class HomeActivity extends BaseActivity {
 
     @Override
     public void initData() {
-        FragmentUtils.addFragment(getSupportFragmentManager(), new BbsFragment(),R.id.home_framelayout);
+        FragmentUtils.addFragment(getSupportFragmentManager(), new HeadFragment(),R.id.home_framelayout);
     }
 
     @Override
@@ -77,17 +76,9 @@ public class HomeActivity extends BaseActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.home_headImg, R.id.home_more, R.id.home_lingdang, R.id.home_title, R.id.home_headbut, R.id.home_naobut, R.id.home_locationbut, R.id.home_lifebut, R.id.home_findbut})
+    @OnClick({ R.id.home_headbut, R.id.home_naobut, R.id.home_locationbut, R.id.home_lifebut, R.id.home_findbut})
     public void onViewClicked(View view) {
         switch (view.getId()) {
-            case R.id.home_headImg:
-                break;
-            case R.id.home_more:
-                break;
-            case R.id.home_lingdang:
-                break;
-            case R.id.home_title:
-                break;
             case R.id.home_headbut:
                 break;
             case R.id.home_naobut:

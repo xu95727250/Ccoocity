@@ -1,4 +1,4 @@
-package citypass.jiyun.com.citypass.control.fragment;
+package citypass.jiyun.com.citypass.control.fragment.head;
 
 import android.view.View;
 

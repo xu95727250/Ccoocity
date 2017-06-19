@@ -6,51 +6,10 @@
     android:layout_height="match_parent"
     tools:context="citypass.jiyun.com.citypass.control.activity.HomeActivity">
 
-    <RelativeLayout
-        android:id="@+id/home_headlayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/red"
-        >
-        <ImageView
-            android:id="@+id/home_headImg"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_margin="3dp"
-            />
-
-        <ImageView
-            android:id="@+id/home_more"
-            android:layout_width="30dp"
-            android:layout_height="26dp"
-            android:src="@mipmap/jiahao"
-            android:layout_alignParentRight="true"
-            android:layout_margin="10dp"
-            />
-        <ImageView
-            android:id="@+id/home_lingdang"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_toLeftOf="@+id/home_more"
-            android:src="@mipmap/home_lingdang"
-            />
-
-        <TextView
-            android:id="@+id/home_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="@string/hometitle"
-            android:textSize="22sp"
-            android:drawableRight="@mipmap/main_title_right"
-            android:layout_centerInParent="true"/>
-    </RelativeLayout>
-
     <FrameLayout
         android:id="@+id/home_framelayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/home_headlayout"
         android:layout_above="@+id/home_radiogroup"
         >
 
