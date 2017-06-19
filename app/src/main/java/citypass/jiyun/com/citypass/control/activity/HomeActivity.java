@@ -39,6 +39,8 @@ public class HomeActivity extends BaseActivity {
     @Override
     public void initData() {
         FragmentUtils.addFragment(getSupportFragmentManager(), new BbsFragment(), R.id.home_framelayout);
+
+
     }
 
     @Override
